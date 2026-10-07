@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Fixed
+
+- Prevented configured relay/CDP defaults from adopting arbitrary user tabs. Explicit attachments now require host-user selection bound to an exact browser-instance/tab for the approving task; `headed:false` defaults to agent-owned Chromium.
+
 ## [18.7.0] - 2026-10-06
 
 ### Added
